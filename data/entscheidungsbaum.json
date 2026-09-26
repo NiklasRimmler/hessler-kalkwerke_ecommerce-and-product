@@ -1,0 +1,889 @@
+{
+  "_hinweis": "Entscheidungsbaum aus KD_Aufbauempfehlungen_Online.docx. ziel.typ: knoten (Folgefrage), aufbau (Ergebnis) oder beratung (sonstiges | unsicher | offen = Lücke im Dokument). Zusatzfragen werden nur gestellt, wenn der Aufbau sie in „zusatzfragen“ führt.",
+  "start": "start",
+  "knoten": [
+    {
+      "id": "start",
+      "schritt": 1,
+      "frage": "Wo soll verputzt werden?",
+      "hilfetext": "Wählen Sie den Bereich Ihres Projekts.",
+      "optionen": [
+        {
+          "id": "innen",
+          "label": "Innenbereich",
+          "ziel": {
+            "typ": "knoten",
+            "id": "innen-kategorie"
+          },
+          "icon": "innen"
+        },
+        {
+          "id": "aussen",
+          "label": "Außenbereich",
+          "ziel": {
+            "typ": "knoten",
+            "id": "aussen-kategorie"
+          },
+          "icon": "aussen"
+        },
+        {
+          "id": "sockel",
+          "label": "Sockelbereich",
+          "ziel": {
+            "typ": "knoten",
+            "id": "sockel-kategorie"
+          },
+          "icon": "sockel"
+        },
+        {
+          "id": "keller",
+          "label": "Nasser Natursteinkeller",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "keller-nass"
+          },
+          "icon": "keller"
+        }
+      ]
+    },
+    {
+      "id": "innen-kategorie",
+      "schritt": 2,
+      "bereich": "innen",
+      "frage": "Innen: Welche Art von Untergrund liegt vor?",
+      "optionen": [
+        {
+          "id": "mauerwerk",
+          "label": "Mauerwerk",
+          "ziel": {
+            "typ": "knoten",
+            "id": "innen-mauerwerk"
+          },
+          "icon": "mauerwerk"
+        },
+        {
+          "id": "platten",
+          "label": "Plattensysteme",
+          "ziel": {
+            "typ": "knoten",
+            "id": "innen-platten"
+          },
+          "icon": "platten"
+        },
+        {
+          "id": "beton",
+          "label": "Beton",
+          "ziel": {
+            "typ": "knoten",
+            "id": "innen-beton"
+          },
+          "icon": "beton"
+        },
+        {
+          "id": "altbestand",
+          "label": "Altbestand (Putze)",
+          "ziel": {
+            "typ": "knoten",
+            "id": "innen-altbestand"
+          },
+          "icon": "putz"
+        },
+        {
+          "id": "strohballen",
+          "label": "Strohballenhaus",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-strohballen"
+          },
+          "icon": "stroh"
+        }
+      ]
+    },
+    {
+      "id": "innen-mauerwerk",
+      "schritt": 3,
+      "bereich": "innen",
+      "frage": "Welches Mauerwerk liegt vor?",
+      "optionen": [
+        {
+          "id": "naturstein",
+          "label": "Natursteinmauerwerk",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "vollziegel",
+          "label": "Vollziegel / Backsteine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "hochlochziegel",
+          "label": "Hochlochziegel / Poroton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-modernes-mauerwerk"
+          }
+        },
+        {
+          "id": "ks-ytong",
+          "label": "KS-Steine / Ytong",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-modernes-mauerwerk"
+          }
+        },
+        {
+          "id": "bims-beton",
+          "label": "Bims-Beton-Steine",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Bims-Beton-Steine (innen)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "hanf-kalk",
+          "label": "Hanf-Kalk-Steine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-hanf-kalk"
+          }
+        },
+        {
+          "id": "lehmsteine",
+          "label": "Lehmsteine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-lehmsteine"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "innen-platten",
+      "schritt": 3,
+      "bereich": "innen",
+      "frage": "Welches Plattensystem liegt vor?",
+      "optionen": [
+        {
+          "id": "rigips",
+          "label": "Rigipsplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-plattensysteme"
+          }
+        },
+        {
+          "id": "fermacell",
+          "label": "Fermacell",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-plattensysteme"
+          },
+          "annahme": "Fermacell wird dem Aufbau „Plattensysteme (z. B. Rigipsplatte)“ zugeordnet – im Dokument nicht ausdrücklich."
+        },
+        {
+          "id": "holzweichfaser",
+          "label": "Holzweichfaserplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-holzweichfaser"
+          }
+        },
+        {
+          "id": "heraklith",
+          "label": "Heraklithplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-heraklith"
+          }
+        },
+        {
+          "id": "lehmbauplatte",
+          "label": "Lehmbauplatte",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Lehmbauplatte (innen)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "blaehglas",
+          "label": "Blähglasplatte (VeroBoard Rapid)",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Blähglasplatte / VeroBoard Rapid (innen)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "stroh-schilf",
+          "label": "Stroh- / Schilfplatte",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Stroh- / Schilfplatte (innen)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "daemmplatten",
+          "label": "Steinwolle / Styrodur / Styropor",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-daemmplatten"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "innen-beton",
+      "schritt": 3,
+      "bereich": "innen",
+      "frage": "Welcher Beton liegt vor?",
+      "optionen": [
+        {
+          "id": "geschalt",
+          "label": "Geschalter Beton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-geschalter-beton"
+          }
+        },
+        {
+          "id": "fertigteile",
+          "label": "Fertigbetonteile",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-beton-fertigteile"
+          }
+        },
+        {
+          "id": "stampfbeton",
+          "label": "Stampfbeton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-stampfbeton"
+          }
+        },
+        {
+          "id": "wu-beton",
+          "label": "WU-Beton / Bitumen",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-wu-beton"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "innen-altbestand",
+      "schritt": 3,
+      "bereich": "innen",
+      "frage": "Welcher Bestandsputz liegt vor?",
+      "optionen": [
+        {
+          "id": "kalkputz",
+          "label": "Kalkputz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-bestandsputze"
+          },
+          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+        },
+        {
+          "id": "kalk-zement",
+          "label": "Kalk-Zement-Putz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-bestandsputze"
+          },
+          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+        },
+        {
+          "id": "lehmputz",
+          "label": "Lehmputz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-bestandsputze"
+          },
+          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+        },
+        {
+          "id": "gipsputz",
+          "label": "Gipsputz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "innen-bestandsputze"
+          },
+          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "aussen-kategorie",
+      "schritt": 2,
+      "bereich": "aussen",
+      "frage": "Außen: Welche Art von Untergrund liegt vor?",
+      "optionen": [
+        {
+          "id": "mauerwerk",
+          "label": "Mauerwerk",
+          "ziel": {
+            "typ": "knoten",
+            "id": "aussen-mauerwerk"
+          },
+          "icon": "mauerwerk"
+        },
+        {
+          "id": "platten",
+          "label": "Plattensysteme",
+          "ziel": {
+            "typ": "knoten",
+            "id": "aussen-platten"
+          },
+          "icon": "platten"
+        },
+        {
+          "id": "beton",
+          "label": "Beton",
+          "ziel": {
+            "typ": "knoten",
+            "id": "aussen-beton"
+          },
+          "icon": "beton"
+        },
+        {
+          "id": "altbestand",
+          "label": "Altbestand (Putze)",
+          "ziel": {
+            "typ": "knoten",
+            "id": "aussen-altbestand"
+          },
+          "icon": "putz"
+        },
+        {
+          "id": "strohballen",
+          "label": "Strohballenhaus",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-strohballen"
+          },
+          "icon": "stroh"
+        }
+      ]
+    },
+    {
+      "id": "aussen-mauerwerk",
+      "schritt": 3,
+      "bereich": "aussen",
+      "frage": "Welches Mauerwerk liegt vor?",
+      "optionen": [
+        {
+          "id": "naturstein",
+          "label": "Natursteinmauerwerk",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "vollziegel",
+          "label": "Vollziegel / Backsteine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "hochlochziegel",
+          "label": "Hochlochziegel / Poroton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-modernes-mauerwerk"
+          }
+        },
+        {
+          "id": "ks-ytong",
+          "label": "KS-Steine / Ytong",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-modernes-mauerwerk"
+          }
+        },
+        {
+          "id": "bims-beton",
+          "label": "Bims-Beton-Steine",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Bims-Beton-Steine (außen)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "hanf-kalk",
+          "label": "Hanf-Kalk-Steine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-hanf-kalk"
+          }
+        },
+        {
+          "id": "lehmsteine",
+          "label": "Lehmsteine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-lehmsteine"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "aussen-platten",
+      "schritt": 3,
+      "bereich": "aussen",
+      "frage": "Welches Plattensystem liegt vor?",
+      "optionen": [
+        {
+          "id": "holzweichfaser",
+          "label": "Holzweichfaserplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-holzweichfaser"
+          }
+        },
+        {
+          "id": "heraklith",
+          "label": "Heraklithplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-heraklith"
+          }
+        },
+        {
+          "id": "stroh-schilf",
+          "label": "Stroh- / Schilfplatte",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-stroh-schilfplatten"
+          }
+        },
+        {
+          "id": "daemmplatten",
+          "label": "Steinwolle / Styrodur / Styropor",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-daemmplatten"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "aussen-beton",
+      "schritt": 3,
+      "bereich": "aussen",
+      "frage": "Welcher Beton liegt vor?",
+      "optionen": [
+        {
+          "id": "geschalt",
+          "label": "Geschalter Beton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-geschalter-beton"
+          }
+        },
+        {
+          "id": "fertigteile",
+          "label": "Fertigbetonteile",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-beton-fertigteile"
+          }
+        },
+        {
+          "id": "stampfbeton",
+          "label": "Stampfbeton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-stampfbeton"
+          }
+        },
+        {
+          "id": "wu-beton",
+          "label": "WU-Beton / Bitumen",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-wu-beton"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "aussen-altbestand",
+      "schritt": 3,
+      "bereich": "aussen",
+      "frage": "Welcher Bestandsputz liegt vor?",
+      "optionen": [
+        {
+          "id": "naturkalkputz",
+          "label": "Reiner Naturkalkputz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-naturkalkputz"
+          }
+        },
+        {
+          "id": "kalk-zement",
+          "label": "Kalk-Zement-Putz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-kalk-zement-putz"
+          }
+        },
+        {
+          "id": "lehmputz",
+          "label": "Lehmputz",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "aussen-lehmputz"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "sockel-kategorie",
+      "schritt": 2,
+      "bereich": "sockel",
+      "frage": "Sockel: Welche Art von Untergrund liegt vor?",
+      "optionen": [
+        {
+          "id": "mauerwerk",
+          "label": "Mauerwerk",
+          "ziel": {
+            "typ": "knoten",
+            "id": "sockel-mauerwerk"
+          },
+          "icon": "mauerwerk"
+        },
+        {
+          "id": "platten",
+          "label": "Plattensysteme",
+          "ziel": {
+            "typ": "knoten",
+            "id": "sockel-platten"
+          },
+          "icon": "platten"
+        }
+      ]
+    },
+    {
+      "id": "sockel-mauerwerk",
+      "schritt": 3,
+      "bereich": "sockel",
+      "frage": "Welches Mauerwerk liegt vor?",
+      "optionen": [
+        {
+          "id": "naturstein",
+          "label": "Natursteinmauerwerk",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "sockel-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "vollziegel",
+          "label": "Vollziegel / Backsteine",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "sockel-naturstein-vollziegel"
+          }
+        },
+        {
+          "id": "hochlochziegel",
+          "label": "Hochlochziegel / Poroton",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "sockel-modernes-mauerwerk-styrodur"
+          }
+        },
+        {
+          "id": "ks-ytong",
+          "label": "KS-Steine / Ytong",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "sockel-modernes-mauerwerk-styrodur"
+          }
+        },
+        {
+          "id": "bims-beton",
+          "label": "Bims-Beton-Steine",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Bims-Beton-Steine (Sockel)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "hanf-kalk",
+          "label": "Hanf-Kalk-Steine",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "offen",
+            "hinweis": "Für „Hanf-Kalk-Steine (Sockel)“ enthält die Aufbauempfehlung noch keinen zugeordneten Aufbau."
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    },
+    {
+      "id": "sockel-platten",
+      "schritt": 3,
+      "bereich": "sockel",
+      "frage": "Welches Plattensystem liegt vor?",
+      "optionen": [
+        {
+          "id": "styrodur",
+          "label": "Styrodur / Styropor",
+          "ziel": {
+            "typ": "aufbau",
+            "id": "sockel-modernes-mauerwerk-styrodur"
+          }
+        },
+        {
+          "id": "sonstiges",
+          "label": "Sonstiges",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "sonstiges"
+          },
+          "icon": "fragezeichen"
+        },
+        {
+          "id": "unsicher",
+          "label": "Ich bin mir nicht sicher",
+          "ziel": {
+            "typ": "beratung",
+            "grund": "unsicher"
+          },
+          "icon": "kamera"
+        }
+      ]
+    }
+  ],
+  "zusatzfragen": [
+    {
+      "id": "schaloel",
+      "frage": "Sind auf dem Beton noch Schalölreste vorhanden?",
+      "hilfetext": "Dann wird vorab ein Schalungsölentferner benötigt.",
+      "standard": false
+    },
+    {
+      "id": "durchschlag",
+      "frage": "Besteht die Gefahr durchschlagender Stoffe aus dem Untergrund (z. B. Kleisterrückstände)?",
+      "hilfetext": "Dann wird statt HP 9500 Biogrund mit Sperrgrund grundiert.",
+      "standard": false
+    },
+    {
+      "id": "rissrisiko",
+      "frage": "Besteht ein erhöhtes Rissrisiko, z. B. durch Materialwechsel oder Bewegungen im Untergrund?",
+      "hilfetext": "Dann wird die Gewebe- bzw. Egalisierungslage „bei Bedarf“ in den Aufbau aufgenommen.",
+      "standard": false
+    },
+    {
+      "id": "holzstaender",
+      "frage": "Handelt es sich um eine Holzständerbauweise?",
+      "hilfetext": "Dann wird eine Putzträgerplatte aus Schilfrohr aufgebracht.",
+      "standard": false
+    },
+    {
+      "id": "farbanstrich",
+      "frage": "Wünschen Sie einen Farbanstrich?",
+      "hilfetext": "Die Oberputze müssen nicht zwingend gestrichen werden.",
+      "standard": false
+    }
+  ],
+  "beratung": {
+    "sonstiges": {
+      "titel": "Ihr Untergrund ist nicht dabei?",
+      "text": "Ist Ihr Untergrund bei dieser Auflistung nicht mit dabei? Dann melden Sie sich gerne bei uns, wir haben den passenden Aufbau für Sie parat!"
+    },
+    "unsicher": {
+      "titel": "Sie sind sich nicht sicher?",
+      "text": "Sie sind sich unsicher, um welche Art von Untergrund es sich bei Ihrem Projekt handelt? Oder haben Sie verschiedene Mischuntergründe? Dann schicken Sie uns einfach Bilder per E-Mail an info@hessler-kalkwerk.de. Wir schicken Ihnen gerne die passenden Aufbauten zu."
+    },
+    "offen": {
+      "titel": "Persönliche Beratung",
+      "text": "Für diesen Untergrund beraten wir Sie gerne persönlich. Schicken Sie uns gerne Bilder Ihres Untergrunds per E-Mail."
+    }
+  },
+  "kontakt": {
+    "email": "info@hessler-kalkwerk.de",
+    "telefon": "06222/9275-0",
+    "text": "Wir beraten Sie gerne!"
+  }
+}

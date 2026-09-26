@@ -1,0 +1,125 @@
+{
+  "_hinweis": "FAQ – ausschließlich aus den Quellen abgeleitet. quelle: 'merkblatt' = HP 14 Kalkhaftputz.pdf, 'aufbauten' = KD_Aufbauempfehlungen_Online.docx.",
+  "faq": [
+    {
+      "id": "hp14-aussen",
+      "frage": "Kann HP 14 auch außen eingesetzt werden?",
+      "antwort": "Ja. HP 14 ist ein Haftputz für den Innen- und Außenbereich (auch Feuchträume). Bei der Außenanwendung ist zu beachten, dass HP 14 nicht hydrophobiert ist. In allen Außen-Aufbauempfehlungen wird deshalb als Witterungsschutz ein hochwertiger Silikatanstrich aufgetragen (z. B. Produkte der Firma Beeck).",
+      "quelle": ["merkblatt", "aufbauten"],
+      "produkte": ["hp-14", "silikatfarbe"],
+      "tags": ["außen", "fassade", "hydrophobiert", "witterungsschutz", "silikat"]
+    },
+    {
+      "id": "gips",
+      "frage": "Kann ich auf Gipsputz, Gipsplatten oder Gipskarton verputzen?",
+      "antwort": "Ja, gipshaltige Untergründe (Gipsputz, Gipsplatten, Gipskarton) sind vorher mit dem Hessler Biogrund HP 9500 zu grundieren. Bei Verdacht auf durchschlagende Stoffe aus dem Untergrund, wie z. B. Kleisterrückstände, wird stattdessen mit Sperrgrund grundiert. Anschließend folgt z. B. auf Rigipsplatten eine Gewebespachtelung mit HP 14.",
+      "quelle": ["merkblatt", "aufbauten"],
+      "produkte": ["hp-9500", "sperrgrund", "hp-14"],
+      "tags": ["gips", "gipskarton", "rigips", "grundierung", "biogrund", "sperrgrund", "kleister"]
+    },
+    {
+      "id": "temperatur",
+      "frage": "Ab welcher Temperatur darf verarbeitet werden?",
+      "antwort": "Die Luft- und/oder Objekttemperatur muss über 5 °C liegen. Reine Kalkmörtel müssen mindestens vier Wochen frostfrei stehen. Ein zu schnelles Austrocknen ist zu verhindern – gegebenenfalls nachnässen bzw. feucht halten und für ausreichende Lüftung sorgen.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["temperatur", "frost", "winter", "verarbeitung", "austrocknen"]
+    },
+    {
+      "id": "anstrich",
+      "frage": "Muss der Oberputz gestrichen werden?",
+      "antwort": "Im Innenbereich nicht: Die Hessler Oberputze müssen nicht zwingend gestrichen werden, auf Wunsch gibt es reine Kalkfarben im Programm. Im Außen- und Sockelbereich wird dagegen immer ein hochwertiger Silikatanstrich als Witterungsschutz aufgetragen.",
+      "quelle": ["aufbauten"],
+      "produkte": ["hp-90", "kalkfarbe", "silikatfarbe"],
+      "tags": ["anstrich", "farbe", "kalkfarbe", "streichen", "oberputz"]
+    },
+    {
+      "id": "zement-aussen",
+      "frage": "Warum wird außen auf Styropor oder WU-Beton ein Kalk-Zement-Putz verwendet?",
+      "antwort": "Steinwolle, Styrodur, Styropor, WU-Beton („Weiße Wanne“) und Bitumenanstriche sind nicht saugfähige Untergründe und werden im Außenbereich deshalb mit einem Kalk-Zement-Putz verputzt: Zahnspachtelung mit HP 6, dann HP 1L bzw. HP 1 und eine Gewebespachtelung mit HP 6. Auch auf einem bereits vorhandenen zementhaltigen Putz kann außen nur zementhaltig weitergearbeitet werden.",
+      "quelle": ["aufbauten"],
+      "produkte": ["hp-6", "hp-1", "hp-1l"],
+      "tags": ["styropor", "styrodur", "steinwolle", "wu-beton", "bitumen", "zement", "nicht saugfähig"]
+    },
+    {
+      "id": "lagerung",
+      "frage": "Wie lange ist HP 14 lagerfähig?",
+      "antwort": "Trocken gelagert und bei geschlossener Verpackung ist HP 14 mindestens 6 Monate haltbar.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["lagerung", "haltbarkeit", "sack"]
+    },
+    {
+      "id": "sicherheit",
+      "frage": "Was muss ich zur Sicherheit beachten?",
+      "antwort": "Mörtel reagiert mit Feuchtigkeit stark alkalisch, deshalb Haut und Augen schützen. Bei Berührung gründlich mit Wasser spülen. Bei Augenkontakt unverzüglich einen Arzt aufsuchen.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["sicherheit", "alkalisch", "augen", "haut", "schutz"]
+    },
+    {
+      "id": "trocknung",
+      "frage": "Wie lange muss HP 14 vor dem Oberputz trocknen?",
+      "antwort": "Vor dem Anbringen des Oberputzes ist eine Trocknungszeit von ca. 1 Tag pro mm Auftragsstärke einzuhalten – abhängig z. B. von Temperatur und Luftfeuchte. Auf Heraklithplatten wird die HP-14-Zahnspachtelung ca. 1 Woche trocknen gelassen, bevor es weitergeht.",
+      "quelle": ["merkblatt", "aufbauten"],
+      "produkte": ["hp-14"],
+      "tags": ["trocknung", "trockenzeit", "wartezeit", "heraklith"]
+    },
+    {
+      "id": "anmischen",
+      "frage": "Wie wird HP 14 angemischt?",
+      "antwort": "Bei Handverarbeitung den Sackinhalt (25 kg) mit ca. 6 Liter Wasser vermengen und knotenfrei verrühren, bis die gewünschte Konsistenz erreicht ist – z. B. mit Freifallmischer oder geeignetem Rührquirl. Ca. 10 Minuten stehen lassen und erneut aufrühren. HP 14 kann auch mit allen gängigen Putzmaschinen verarbeitet werden. HP 14 darf nur im Originalzustand ohne jegliche Beimischung verwendet werden.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["anmischen", "wasser", "maschine", "rührquirl", "beimischung"]
+    },
+    {
+      "id": "schichtdicke",
+      "frage": "Wie dick wird HP 14 aufgetragen?",
+      "antwort": "Mindestens 3 mm und maximal 5 mm pro Lage. Für eine Zahnspachtelung mindestens eine 6er Zahntraufel verwenden; bei einer Gewebespachtelung wird der Putz ca. 5 mm aufgebracht. Stark saugende Untergründe vorher vornässen.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["schichtdicke", "auftragsstärke", "zahnspachtelung", "gewebespachtelung", "mm"]
+    },
+    {
+      "id": "ergiebigkeit",
+      "frage": "Wie viel Fläche schafft ein Sack HP 14?",
+      "antwort": "Laut Merkblatt ca. 5 m² pro 25-kg-Sack bei ca. 5 mm Auftragsstärke – je nach Beschaffenheit des Untergrunds. Ein Sack ergibt ca. 19 Liter Nassmörtel. Eine Palette umfasst 42 Sack (ca. 1.050 kg). Nutzen Sie gerne unseren Mengenrechner.",
+      "quelle": ["merkblatt"],
+      "produkte": ["hp-14"],
+      "tags": ["verbrauch", "ergiebigkeit", "menge", "sack", "palette", "m²"]
+    },
+    {
+      "id": "sockel",
+      "frage": "Wie wird der Sockelbereich verputzt?",
+      "antwort": "Der Sockelbereich wird klassisch zementär verputzt: je nach Untergrund mit HP 10 Vorspritzmörtel (bei Bedarf) oder einer Zahnspachtelung mit HP 6, danach HP 1 bzw. HP 1L Kalk-Zement-Grundputz, einer Gewebespachtelung mit HP 6 und einem Silikatanstrich. Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+      "quelle": ["aufbauten"],
+      "produkte": ["hp-10", "hp-1", "hp-1l", "hp-6", "silikatfarbe"],
+      "tags": ["sockel", "zement", "spritzwasser"]
+    },
+    {
+      "id": "keller",
+      "frage": "Was empfehlen Sie für einen nassen Natursteinkeller?",
+      "antwort": "Für dauerhaft feuchte bzw. nasse Natursteinmauerwerke gibt es den HP 9PM Naturkalk-Grundputz PureMineral – je nach Mauerwerk mit HP 9VM Vorspritzmörtel und auf Wunsch mit der HP 9100PM Sumpfkalkfarbe PureMineral. Wichtig ist, dass die Luftfeuchtigkeit dauerhaft reguliert wird, z. B. durch klassisches Lüften oder eine taupunktgesteuerte Lüftungsanlage.",
+      "quelle": ["aufbauten"],
+      "produkte": ["hp-9pm", "hp-9vm", "hp-9100pm"],
+      "tags": ["keller", "feucht", "nass", "naturstein", "lüften", "puremineral"]
+    },
+    {
+      "id": "beton-schaloel",
+      "frage": "Kann ich direkt auf Beton verputzen?",
+      "antwort": "HP 14 eignet sich als Haftputz besonders für Flächen, die für reinen Kalkputz sonst ungeeignet sind, z. B. Betonflächen. Der Putzgrund muss saugfähig, trocken und frei von Staub und Schalöl sein – eventuell vorhandenes Schalöl zunächst entfernen (Schalungsölentferner). Der genaue Aufbau hängt von der Betonart ab; nutzen Sie dafür den Produktfinder.",
+      "quelle": ["merkblatt", "aufbauten"],
+      "produkte": ["hp-14", "schalungsoelentferner"],
+      "tags": ["beton", "schalöl", "haftputz", "untergrund"]
+    },
+    {
+      "id": "dickschicht",
+      "frage": "Was mache ich, wenn ich mehr als 10 mm Putzstärke brauche?",
+      "antwort": "Falls auf Plattensystemen, Beton oder Bestandsputzen ein Dickschichtaufbau über 10 mm benötigt wird, wenden Sie sich bitte an uns – wir erstellen Ihnen eine passende Aufbauempfehlung: info@hessler-kalkwerk.de oder 06222/9275-0.",
+      "quelle": ["aufbauten"],
+      "produkte": [],
+      "tags": ["dickschicht", "10 mm", "beratung", "kontakt"]
+    }
+  ]
+}

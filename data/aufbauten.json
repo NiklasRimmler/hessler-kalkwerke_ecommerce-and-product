@@ -1,0 +1,3167 @@
+{
+  "_hinweis": "Aufbauempfehlungen aus KD_Aufbauempfehlungen_Online.docx. Schichten von unten (erste Lage auf dem Untergrund) nach oben (Anstrich). optional=true bedeutet „bei Bedarf / bei Wunsch“ laut Dokument. bedingung: Schicht gilt nur, wenn die Zusatzfrage mit dem Wert beantwortet wurde. ersatz: Produkt wird bei erfüllter Bedingung ersetzt. schichtdicke_mm: Vorschlag für den Mengenrechner (null = Nutzereingabe).",
+  "aufbauten": [
+    {
+      "id": "innen-naturstein-vollziegel",
+      "titel": "Natursteinmauerwerk, Vollziegel / Backsteine",
+      "bereich": "innen",
+      "untergruende": [
+        "Natursteinmauerwerk",
+        "Vollziegel / Backsteine"
+      ],
+      "quelle_abschnitt": "1b) a",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Natursteinmauerwerk bzw. auf einem Vollziegel / Backstein besteht aus einem Naturkalk-Vorspritzmörtel, einem Naturkalk-Grundputz, bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-modernes-mauerwerk",
+      "titel": "Modernes Mauerwerk (Hochlochziegel, KS-Stein, Ytong)",
+      "bereich": "innen",
+      "untergruende": [
+        "Hochlochziegel / Poroton",
+        "KS-Steine / Ytong"
+      ],
+      "quelle_abschnitt": "1b) b",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": "Im Dokument wird innen nur „Naturkalk-Leichtgrundputz“ ohne Produktnamen genannt. HP 9L angenommen (außen explizit genannt)."
+        },
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem modernen Mauerwerk bzw. auf einem Hochlochziegel, KS-Stein oder Ytong besteht aus einer Zahnspachtelung, einem Naturkalk-Leichtgrundputz, bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Leichtgrundputz, welcher perfekt auf die geringen Rohdichten und leichten Bausteine geeignet ist. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Leichtgrundputz innen = HP 9L (Annahme)."
+      ],
+      "zusatzfragen": [
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-hanf-kalk",
+      "titel": "Hanf-Kalk-Steine",
+      "bereich": "innen",
+      "untergruende": [
+        "Hanf-Kalk-Steine"
+      ],
+      "quelle_abschnitt": "1b) c",
+      "schichten": [
+        {
+          "funktion": "Naturkalk-Universalputz",
+          "technik": null,
+          "produkt_id": "hp-9u",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9U Naturkalk-Universalputz braucht auf Hanf-Kalk-Steinen keine Untergrundvorbereitung und kann direkt aufgetragen werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebeeinlage im oberen Drittel",
+          "technik": "Gewebe im HP 9U",
+          "produkt_id": "armierungsgewebe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Es besteht die Möglichkeit, im oberen Drittel ein Gewebe mit einzubringen, wenn ein erhöhtes Rissrisiko besteht.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Egalisierungslage",
+          "technik": "Egalisierung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Für den Hanf-Kalk-Stein haben wir einen speziellen Putz entwickelt, welcher optimal auf die Bedingungen abgestimmt ist. Der Aufbau besteht aus dem Naturkalk-Universalputz, bei Bedarf mit Gewebeeinlage im oberen Drittel, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9U Naturkalk-Universalputz braucht auf den Hanf-Kalk-Steinen und auch auf Natursteinen bzw. Vollziegel / Backsteinen keine Untergrundvorbereitung und kann somit direkt aufgetragen werden. Bei modernen Mauerwerken wird mit dem HP 9500 Biogrund vorgrundiert. Es besteht die Möglichkeit, bereits hier im oberen Drittel ein Gewebe mit einzubringen, wenn ein erhöhtes Rissrisiko besteht. Je nach Bedarf kann im Anschluss direkt der Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz, oder man zieht noch eine Egalisierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-lehmsteine",
+      "titel": "Lehmsteine",
+      "bereich": "innen",
+      "untergruende": [
+        "Lehmsteine"
+      ],
+      "quelle_abschnitt": "1b) d",
+      "schichten": [
+        {
+          "funktion": "Schlämme",
+          "technik": "Schlämme (eingebürstet)",
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Untergrund eingebürstet.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": "Im Dokument wird innen nur „Naturkalk-Leichtgrundputz“ ohne Produktnamen genannt. HP 9L angenommen."
+        },
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Lehm-Leichtbaustein besteht aus einer Schlämme mit dem Naturkalk-Vorspritzmörtel, einem Naturkalk-Leichtgrundputz, bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Lehmstein eingebürstet. Anschließend erfolgt der gewünschte Naturkalk-Leichtgrundputz, welcher perfekt auf die geringen Rohdichten und leichten Bausteine geeignet ist. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Leichtgrundputz innen = HP 9L (Annahme)."
+      ],
+      "zusatzfragen": [
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-plattensysteme",
+      "titel": "Plattensysteme (z. B. Rigipsplatte)",
+      "bereich": "innen",
+      "untergruende": [
+        "Rigipsplatte",
+        "Fermacell"
+      ],
+      "quelle_abschnitt": "1b) e",
+      "schichten": [
+        {
+          "funktion": "Grundierung",
+          "technik": null,
+          "produkt_id": "hp-9500",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [
+            {
+              "bedingung": {
+                "frage": "durchschlag",
+                "wert": true
+              },
+              "produkt_id": "sperrgrund",
+              "begruendung": "Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert."
+            }
+          ],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Plattensystem, z. B. auf Rigipsplatten, besteht aus einer Grundierung, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung. Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert. Anschließend erfolgt die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Gipshaltige Untergründe (Gipsplatten, Gipskarton) sind laut HP-14-Merkblatt mit HP 9500 Biogrund bzw. Sperrgrund zu grundieren.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Fermacell wird diesem Aufbau zugeordnet (im Dokument nur als Auswahloption genannt, Aufbau nennt nur Rigipsplatten) – bitte prüfen."
+      ],
+      "zusatzfragen": [
+        "durchschlag",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-holzweichfaser",
+      "titel": "Holzweichfaserplatte",
+      "bereich": "innen",
+      "untergruende": [
+        "Holzweichfaserplatte"
+      ],
+      "quelle_abschnitt": "1b) f",
+      "schichten": [
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Bei den Holzweichfaserplatten kann auf eine Grundierung verzichtet werden. Als Erstes erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Holzweichfaserplatten besteht aus einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Bei den Holzweichfaserplatten kann auf eine Grundierung verzichtet werden. Als Erstes erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-heraklith",
+      "titel": "Heraklithplatte",
+      "bereich": "innen",
+      "untergruende": [
+        "Heraklithplatte"
+      ],
+      "quelle_abschnitt": "1b) g",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Da Heraklithplatten eine sehr geringe Dichte haben, wird hier zuerst eine Zahnspachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen.",
+          "hinweis": "Zahnspachtelung ca. 1 Woche trocknen lassen, bevor weitergearbeitet wird.",
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Heraklithplatten besteht aus einer Zahnspachtelung, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Da die Heraklithplatten eine sehr geringe Dichte haben, wird hier zuerst eine Zahnspachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen, welche ca. 1 Woche trocknen gelassen wird. Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Die HP-14-Zahnspachtelung auf Heraklith ca. 1 Woche trocknen lassen.",
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-daemmplatten",
+      "titel": "Steinwolle / Styrodur / Styropor",
+      "bereich": "innen",
+      "untergruende": [
+        "Steinwolle / Styrodur / Styropor"
+      ],
+      "quelle_abschnitt": "1b) h",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Zahnspachtelung",
+          "technik": "Zahnspachtelung (Haftungsbrücke)",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Steinwolle, Styrodur und Styropor sind nicht saugfähige Untergründe. Der Aufbau besteht aus einer zementhaltigen Zahnspachtelung, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel. Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Nicht saugfähiger Untergrund: Haftungsbrücke mit zementhaltigem HP 6.",
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-geschalter-beton",
+      "titel": "Geschalter Beton",
+      "bereich": "innen",
+      "untergruende": [
+        "Geschalter Beton"
+      ],
+      "quelle_abschnitt": "1b) i",
+      "schichten": [
+        {
+          "funktion": "Schalöl entfernen",
+          "technik": null,
+          "produkt_id": "schalungsoelentferner",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "schaloel",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Sollten bei geschaltem Beton noch Ölreste vorhanden sein, wird ein Schalungsölentferner benötigt.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Grundierung",
+          "technik": null,
+          "produkt_id": "hp-9500",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [
+            {
+              "bedingung": {
+                "frage": "durchschlag",
+                "wert": true
+              },
+              "produkt_id": "sperrgrund",
+              "begruendung": "Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert."
+            }
+          ],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Haftputz (Egalisierungslage)",
+          "technik": "Egalisierung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend erfolgt eine Egalisierungslage mit dem HP 14 Naturkalk-Haftputz. Bei Wunsch kann hier auch ein Gewebe mit eingelegt werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebeeinlage",
+          "technik": "Gewebe in der HP-14-Lage",
+          "produkt_id": "armierungsgewebe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Bei Wunsch kann in die Egalisierungslage ein Gewebe mit eingelegt werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf geschalten Betonuntergründen besteht aus einer Grundierung, einem Haftputz, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Sollten bei geschaltem Beton noch Ölreste vorhanden sein, wird ein Schalungsölentferner benötigt. Der HP 9500 Biogrund sorgt anschließend für eine gute Untergrundvorbereitung. Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert. Anschließend erfolgt eine Egalisierungslage mit dem HP 14 Naturkalk-Haftputz. Bei Wunsch kann hier auch ein Gewebe mit eingelegt werden. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "schaloel",
+        "durchschlag",
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-beton-fertigteile",
+      "titel": "Beton-Fertigbauteile",
+      "bereich": "innen",
+      "untergruende": [
+        "Fertigbetonteile"
+      ],
+      "quelle_abschnitt": "1b) j",
+      "schichten": [
+        {
+          "funktion": "Grundierung",
+          "technik": null,
+          "produkt_id": "hp-9500",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [
+            {
+              "bedingung": {
+                "frage": "durchschlag",
+                "wert": true
+              },
+              "produkt_id": "sperrgrund",
+              "begruendung": "Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert."
+            }
+          ],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Beton-Fertigbauteilen besteht aus einer Grundierung, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung. Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert. Anschließend erfolgt die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "durchschlag",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-stampfbeton",
+      "titel": "Stampfbeton",
+      "bereich": "innen",
+      "untergruende": [
+        "Stampfbeton"
+      ],
+      "quelle_abschnitt": "1b) k",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Stampfbeton besteht aus einem Naturkalk-Vorspritzmörtel, einem Naturkalk-Grundputz, bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Je nach Bedarf kann direkt der Oberputz aufgetragen werden, oder man zieht noch eine Egalisierungs- oder Gewebearmierungslage mit dem HP 14 Naturkalk-Haftputz dazwischen. Diese verhindert z. B. Risse durch Materialwechsel im Untergrund. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-wu-beton",
+      "titel": "WU-Beton / Bitumen",
+      "bereich": "innen",
+      "untergruende": [
+        "WU-Beton / Bitumen"
+      ],
+      "quelle_abschnitt": "1b) l",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Zahnspachtelung",
+          "technik": "Zahnspachtelung (Haftungsbrücke)",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "WU-Beton, auch „Weiße Wanne“ genannt, oder klassische Bitumenanstriche sind nicht saugfähige Untergründe. Der Aufbau besteht aus einer zementhaltigen Zahnspachtelung, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel. Anschließend erfolgt eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Nicht saugfähiger Untergrund: Haftungsbrücke mit zementhaltigem HP 6.",
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-bestandsputze",
+      "titel": "Bestandsputze",
+      "bereich": "innen",
+      "untergruende": [
+        "Kalkputz",
+        "Kalk-Zement-Putz",
+        "Lehmputz",
+        "Gipsputz"
+      ],
+      "quelle_abschnitt": "1b) m",
+      "schichten": [
+        {
+          "funktion": "Grundierung",
+          "technik": null,
+          "produkt_id": "hp-9500",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [
+            {
+              "bedingung": {
+                "frage": "durchschlag",
+                "wert": true
+              },
+              "produkt_id": "sperrgrund",
+              "begruendung": "Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert."
+            }
+          ],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Anschließend erfolgt, wenn benötigt oder gewünscht, die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Bestandsputz besteht aus einer Grundierung, bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9500 Biogrund sorgt für eine gute Untergrundvorbereitung. Bei Gefahr von Durchschlägen, wie z. B. Kleisterrückständen, wird stattdessen mit dem Sperrgrund grundiert. Anschließend erfolgt, wenn benötigt oder gewünscht, die Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Für die Optik kann dann ein Naturkalk-Oberputz aufgetragen werden, z. B. der HP 90 Naturkalk-Oberputz. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Alle vier Innen-Bestandsputze (Kalkputz, Kalk-Zement-Putz, Lehmputz, Gipsputz) werden auf diesen Aufbau „Bestandsputze“ gemappt – im Dokument nicht explizit zugeordnet."
+      ],
+      "zusatzfragen": [
+        "durchschlag",
+        "rissrisiko",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "innen-strohballen",
+      "titel": "Strohballenhaus",
+      "bereich": "innen",
+      "untergruende": [
+        "Strohballenhaus"
+      ],
+      "quelle_abschnitt": "1b) n",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Putzträgerplatte",
+          "technik": null,
+          "produkt_id": "schilfrohr-putztraegerplatte",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Holzständerbauweise",
+          "bedingung": {
+            "frage": "holzstaender",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend wird eine Schilfrohrplatte als Putzträger aufgebracht (z. B. bei Holzständerbauweise).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": "Im Dokument nur „Naturkalk-Leichtgrundputz“ ohne Produktnamen. HP 9L angenommen."
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für die Optik wird ein Naturkalk-Oberputz aufgetragen, z. B. der HP 90 Naturkalk-Oberputz.",
+          "hinweis": "Oberputz nach gewünschter Optik wählbar – HP 90 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Farbanstrich",
+          "technik": null,
+          "produkt_id": "kalkfarbe",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Strohballenhaus besteht aus einem Naturkalk-Vorspritzmörtel, einer Putzträgerplatte aus Schilfrohr (bei Holzständerbauweise), einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und bei Wunsch noch einem Farbanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend wird eine Schilfrohrplatte als Putzträger aufgebracht (z. B. bei Holzständerbauweise). Danach erfolgt der gewünschte Naturkalk-Leichtgrundputz. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch ein Oberputz, z. B. der HP 90 Naturkalk-Oberputz, aufgetragen werden. Unsere Oberputze müssen nicht zwingend gestrichen werden, jedoch haben wir natürlich auch reine Kalkfarben im Programm.",
+      "hinweise": [
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Leichtgrundputz = HP 9L (Annahme)."
+      ],
+      "zusatzfragen": [
+        "holzstaender",
+        "farbanstrich"
+      ]
+    },
+    {
+      "id": "aussen-naturstein-vollziegel",
+      "titel": "Natursteinmauerwerk, Vollziegel / Backsteine",
+      "bereich": "aussen",
+      "untergruende": [
+        "Natursteinmauerwerk",
+        "Vollziegel / Backsteine"
+      ],
+      "quelle_abschnitt": "2b) a",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Natursteinmauerwerk bzw. auf einem Vollziegel / Backstein besteht aus einem Naturkalk-Vorspritzmörtel, einem Naturkalk-Grundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-modernes-mauerwerk",
+      "titel": "Modernes Mauerwerk (Hochlochziegel, KS-Stein, Ytong)",
+      "bereich": "aussen",
+      "untergruende": [
+        "Hochlochziegel / Poroton",
+        "KS-Steine / Ytong"
+      ],
+      "quelle_abschnitt": "2b) b",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem modernen Mauerwerk bzw. auf einem Hochlochziegel, KS-Stein oder Ytong besteht aus einer Zahnspachtelung, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, welcher perfekt auf die geringen Rohdichten und leichten Bausteine geeignet ist. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-hanf-kalk",
+      "titel": "Hanf-Kalk-Steine",
+      "bereich": "aussen",
+      "untergruende": [
+        "Hanf-Kalk-Steine"
+      ],
+      "quelle_abschnitt": "2b) c",
+      "schichten": [
+        {
+          "funktion": "Naturkalk-Universalputz mit Gewebeeinlage",
+          "technik": "Gewebe im oberen Drittel",
+          "produkt_id": "hp-9u",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9U Naturkalk-Universalputz braucht auf Hanf-Kalk-Steinen keine Untergrundvorbereitung. Im oberen Drittel wird das Gewebe mit eingearbeitet.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Für den Hanf-Kalk-Stein haben wir einen speziellen Putz entwickelt, welcher optimal auf die Bedingungen abgestimmt ist. Der Aufbau besteht aus dem Naturkalk-Universalputz mit Gewebeeinlage im oberen Drittel, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9U Naturkalk-Universalputz braucht auf den Hanf-Kalk-Steinen und auch auf Natursteinen bzw. Vollziegel / Backsteinen keine Untergrundvorbereitung und kann somit direkt aufgetragen werden. Bei modernen Mauerwerken wird mit dem HP 9500 Biogrund vorgrundiert. Im oberen Drittel des HP 9U Naturkalk-Universalputzes wird das Gewebe mit eingearbeitet. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-lehmsteine",
+      "titel": "Lehmsteine",
+      "bereich": "aussen",
+      "untergruende": [
+        "Lehmsteine"
+      ],
+      "quelle_abschnitt": "2b) d",
+      "schichten": [
+        {
+          "funktion": "Schlämme",
+          "technik": "Schlämme (eingebürstet)",
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Untergrund eingebürstet.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Lehm-Leichtbaustein besteht aus einer Schlämme mit dem Naturkalk-Vorspritzmörtel, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Lehmstein eingebürstet. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, welcher perfekt auf die geringen Rohdichten und leichten Bausteine geeignet ist. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-holzweichfaser",
+      "titel": "Holzweichfaserplatte",
+      "bereich": "aussen",
+      "untergruende": [
+        "Holzweichfaserplatte"
+      ],
+      "quelle_abschnitt": "2b) e",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Bei den Holzweichfaserplatten kann auf eine Grundierung verzichtet werden. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Holzweichfaserplatten besteht aus einer Zahnspachtelung, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Bei den Holzweichfaserplatten kann auf eine Grundierung verzichtet werden. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-stroh-schilfplatten",
+      "titel": "Strohplatten / Schilfplatten",
+      "bereich": "aussen",
+      "untergruende": [
+        "Stroh- / Schilfplatte"
+      ],
+      "quelle_abschnitt": "2b) f",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Stroh- / Schilfplatten besteht aus einer Zahnspachtelung, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-heraklith",
+      "titel": "Heraklithplatte",
+      "bereich": "aussen",
+      "untergruende": [
+        "Heraklithplatte"
+      ],
+      "quelle_abschnitt": "2b) g",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Da Heraklithplatten eine sehr geringe Dichte haben, wird hier zuerst eine Zahnspachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen.",
+          "hinweis": "Zahnspachtelung ca. 1 Woche trocknen lassen, bevor weitergearbeitet wird.",
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Heraklithplatten besteht aus einer Zahnspachtelung, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Da die Heraklithplatten eine sehr geringe Dichte haben, wird hier zuerst eine Zahnspachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen, welche ca. 1 Woche trocknen gelassen wird. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Die HP-14-Zahnspachtelung auf Heraklith ca. 1 Woche trocknen lassen.",
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-daemmplatten",
+      "titel": "Steinwolle / Styrodur / Styropor",
+      "bereich": "aussen",
+      "untergruende": [
+        "Steinwolle / Styrodur / Styropor"
+      ],
+      "quelle_abschnitt": "2b) h",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Zahnspachtelung",
+          "technik": "Zahnspachtelung (Haftungsbrücke)",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-1l",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend erfolgt der HP 1L Kalk-Zement-Leichtgrundputz.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltige Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Oberputz",
+          "technik": null,
+          "produkt_id": "zement-oberputz-fremd",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "auf Wunsch",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei Hessler nicht im Programm).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Steinwolle, Styrodur und Styropor sind nicht saugfähige Untergründe und werden deshalb mit einem Kalk-Zement-Putz verputzt. Der Aufbau besteht aus einer zementhaltigen Zahnspachtelung, einem zementhaltigen Leichtgrundputz, einer zementhaltigen Gewebespachtelung, einem für die Optik ausgewählten zementhaltigen Oberputz und einem hochwertigen Silikatanstrich. Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel. Anschließend erfolgt der HP 1L Kalk-Zement-Leichtgrundputz. Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei uns nicht im Programm). Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Nicht saugfähiger Untergrund außen: ausschließlich zementhaltiger Aufbau – kein Naturkalk-Grundputz.",
+        "Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-geschalter-beton",
+      "titel": "Geschalter Beton",
+      "bereich": "aussen",
+      "untergruende": [
+        "Geschalter Beton"
+      ],
+      "quelle_abschnitt": "2b) i",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf geschalten Betonuntergründen besteht aus einer Zahnspachtelung, einem Naturkalk-Grundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Evtl. vorhandenes Schalöl laut HP-14-Merkblatt zunächst entfernen (Putzgrund muss frei von Schalöl sein).",
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-beton-fertigteile",
+      "titel": "Beton-Fertigbauteile",
+      "bereich": "aussen",
+      "untergruende": [
+        "Fertigbetonteile"
+      ],
+      "quelle_abschnitt": "2b) j",
+      "schichten": [
+        {
+          "funktion": "Zahnspachtelung",
+          "technik": "Zahnspachtelung (mind. 6er Zahntraufel)",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf Beton-Fertigbauteilen besteht aus einer Zahnspachtelung, einem Naturkalk-Grundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 14 Naturkalk-Haftputz sorgt in seiner gezahnten Struktur für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-stampfbeton",
+      "titel": "Stampfbeton",
+      "bereich": "aussen",
+      "untergruende": [
+        "Stampfbeton"
+      ],
+      "quelle_abschnitt": "2b) k",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Den Naturkalk-Grundputz können Sie frei aus dem Hessler-Sortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz.",
+          "hinweis": "Grundputz frei aus dem Sortiment wählbar – HP 9 ist ein Beispiel.",
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Stampfbeton besteht aus einem Naturkalk-Vorspritzmörtel, einem Naturkalk-Grundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend erfolgt der gewünschte Naturkalk-Grundputz. Diesen können Sie frei aus unserem Produktsortiment wählen, wie z. B. den HP 9 Naturkalk-Grundputz. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-wu-beton",
+      "titel": "WU-Beton / Bitumen",
+      "bereich": "aussen",
+      "untergruende": [
+        "WU-Beton / Bitumen"
+      ],
+      "quelle_abschnitt": "2b) l",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Zahnspachtelung",
+          "technik": "Zahnspachtelung (Haftungsbrücke)",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Grundputz",
+          "technik": null,
+          "produkt_id": "hp-1",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend erfolgt der HP 1 Kalk-Zement-Grundputz.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltige Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Oberputz",
+          "technik": null,
+          "produkt_id": "zement-oberputz-fremd",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "auf Wunsch",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei Hessler nicht im Programm).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "WU-Beton, auch „Weiße Wanne“ genannt, oder klassische Bitumenanstriche sind nicht saugfähige Untergründe und werden deshalb mit einem Kalk-Zement-Putz verputzt. Der Aufbau besteht aus einer zementhaltigen Zahnspachtelung, einem zementhaltigen Grundputz, einer zementhaltigen Gewebespachtelung, einem für die Optik ausgewählten zementhaltigen Oberputz und einem hochwertigen Silikatanstrich. Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel. Anschließend erfolgt der HP 1 Kalk-Zement-Grundputz. Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei uns nicht im Programm). Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Nicht saugfähiger Untergrund außen: ausschließlich zementhaltiger Aufbau – kein Naturkalk-Grundputz.",
+        "Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-naturkalkputz",
+      "titel": "Bestehender reiner Naturkalkputz",
+      "bereich": "aussen",
+      "untergruende": [
+        "Reiner Naturkalkputz"
+      ],
+      "quelle_abschnitt": "2b) m",
+      "schichten": [
+        {
+          "funktion": "Egalisierungs- oder Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Wenn benötigt oder gewünscht, wird eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem bereits bestehenden Naturkalkputz besteht aus bei Bedarf einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Wenn benötigt oder gewünscht, wird eine Gewebespachtelung mit dem HP 14 Naturkalk-Haftputz aufgetragen. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "rissrisiko"
+      ]
+    },
+    {
+      "id": "aussen-kalk-zement-putz",
+      "titel": "Bestehender Kalk-Zement-Putz",
+      "bereich": "aussen",
+      "untergruende": [
+        "Kalk-Zement-Putz"
+      ],
+      "quelle_abschnitt": "2b) n",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": {
+            "frage": "rissrisiko",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Wenn benötigt oder gewünscht, wird eine Gewebespachtelung mit dem HP 6 Klebe- und Armierungsmörtel aufgetragen. Diese verhindert z. B. Risse durch Bewegungen im Untergrund.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Oberputz",
+          "technik": null,
+          "produkt_id": "zement-oberputz-fremd",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "auf Wunsch",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei Hessler nicht im Programm).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Auf einem bereits vorhandenen zementhaltigen Putz kann im Außenbereich nur mit zementhaltigen Putzen weitergearbeitet werden. Der Aufbau besteht aus bei Bedarf einer zementhaltigen Gewebespachtelung, einem für die Optik ausgewählten zementhaltigen Oberputz und einem hochwertigen Silikatanstrich. Wenn benötigt oder gewünscht, wird eine Gewebespachtelung mit dem HP 6 Klebe- und Armierungsmörtel aufgetragen. Diese verhindert z. B. Risse durch Bewegungen im Untergrund. Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei uns nicht im Programm). Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Auf bestehendem zementhaltigem Putz außen nur zementhaltig weiterarbeiten – kein Naturkalk.",
+        "Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+        "Falls ein Dickschichtaufbau benötigt wird (über 10 mm), wenden Sie sich für eine passende Aufbauempfehlung gerne an uns.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "rissrisiko"
+      ]
+    },
+    {
+      "id": "aussen-lehmputz",
+      "titel": "Bestehender Lehmputz",
+      "bereich": "aussen",
+      "untergruende": [
+        "Lehmputz"
+      ],
+      "quelle_abschnitt": "2b) o",
+      "schichten": [
+        {
+          "funktion": "Schlämme",
+          "technik": "Schlämme (eingebürstet)",
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Untergrund eingebürstet.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem bereits bestehenden Lehmputz besteht aus einer Schlämme mit dem Naturkalk-Vorspritzmörtel, einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel wird für eine gute Untergrundvorbereitung als Schlämme in den Lehmputz eingebürstet. Anschließend erfolgt der HP 9L Naturkalk-Leichtgrundputz, alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "aussen-strohballen",
+      "titel": "Strohballenhaus",
+      "bereich": "aussen",
+      "untergruende": [
+        "Strohballenhaus"
+      ],
+      "quelle_abschnitt": "2b) p",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Putzträgerplatte",
+          "technik": null,
+          "produkt_id": "schilfrohr-putztraegerplatte",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Holzständerbauweise",
+          "bedingung": {
+            "frage": "holzstaender",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend wird eine Schilfrohrplatte als Putzträger aufgebracht (z. B. bei Holzständerbauweise).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-9l",
+          "alternativen": [
+            "hp-9u",
+            "hp-9sl"
+          ],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Der Naturkalk-Leichtgrundputz ist perfekt auf geringe Rohdichten und leichte Bausteine abgestimmt. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden.",
+          "hinweis": null,
+          "annahme": "Im Dokument nur „Naturkalk-Leichtgrundputz“ ohne Produktnamen. HP 9L angenommen."
+        },
+        {
+          "funktion": "Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-14",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": 5,
+          "begruendung": "Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Naturkalk-Oberputz",
+          "technik": null,
+          "produkt_id": "hp-90",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden.",
+          "hinweis": "Außen in der 1,0 mm Körnung.",
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Naturkalk-Aufbau auf einem Strohballenhaus besteht aus einem Naturkalk-Vorspritzmörtel, einer Putzträgerplatte aus Schilfrohr (bei Holzständerbauweise), einem Naturkalk-Leichtgrundputz, einer Gewebespachtelung, einem für die Optik ausgewählten Naturkalk-Oberputz und einem hochwertigen Silikatanstrich. Der HP 9VM Naturkalk-Vorspritzmörtel sorgt für eine gute Untergrundvorbereitung. Anschließend wird eine Schilfrohrplatte als Putzträger aufgebracht (z. B. bei Holzständerbauweise). Danach erfolgt der gewünschte Naturkalk-Leichtgrundputz. Alternativ kann auch der HP 9U Naturkalk-Universalputz oder der HP 9SL Naturkalk-Dämmputz verwendet werden. Die Gewebespachtelung mit HP 14 Naturkalk-Haftputz sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch der HP 90 Naturkalk-Oberputz in der 1,0 mm Körnung aufgetragen werden. Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Außen immer Silikatanstrich als Witterungsschutz – HP 14 ist nicht hydrophobiert.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [
+        "Leichtgrundputz = HP 9L (Annahme)."
+      ],
+      "zusatzfragen": [
+        "holzstaender"
+      ]
+    },
+    {
+      "id": "sockel-naturstein-vollziegel",
+      "titel": "Sockel: Natursteinmauerwerk, Vollziegel / Backsteine",
+      "bereich": "sockel",
+      "untergruende": [
+        "Natursteinmauerwerk",
+        "Vollziegel / Backsteine"
+      ],
+      "quelle_abschnitt": "3b) a",
+      "schichten": [
+        {
+          "funktion": "Zementhaltiger Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-10",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Bei Bedarf kann der HP 10 Vorspritzmörtel halbdeckend vorgespritzt werden.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Grundputz",
+          "technik": null,
+          "produkt_id": "hp-1",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend erfolgt der HP 1 Kalk-Zement-Grundputz.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltige Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Oberputz",
+          "technik": null,
+          "produkt_id": "zement-oberputz-fremd",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "auf Wunsch",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei Hessler nicht im Programm).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Sockelbereich wird klassisch zementär verputzt. Der Aufbau besteht aus bei Bedarf einem zementhaltigen Vorspritzmörtel, einem zementhaltigen Grundputz, einer zementhaltigen Gewebespachtelung, einem für die Optik ausgewählten zementhaltigen Oberputz und einem hochwertigen Silikatanstrich. Bei Bedarf kann der HP 10 Vorspritzmörtel halbdeckend vorgespritzt werden. Anschließend erfolgt der HP 1 Kalk-Zement-Grundputz. Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei uns nicht im Programm). Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Der Sockelbereich wird immer zementär verputzt.",
+        "Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "sockel-modernes-mauerwerk-styrodur",
+      "titel": "Sockel: Modernes Mauerwerk / Styrodur",
+      "bereich": "sockel",
+      "untergruende": [
+        "Hochlochziegel / Poroton",
+        "KS-Steine / Ytong",
+        "Styrodur / Styropor"
+      ],
+      "quelle_abschnitt": "3b) b",
+      "schichten": [
+        {
+          "funktion": "Zementhaltige Zahnspachtelung",
+          "technik": "Zahnspachtelung (Haftungsbrücke)",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Leichtgrundputz",
+          "technik": null,
+          "produkt_id": "hp-1l",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend erfolgt der HP 1L Kalk-Zement-Leichtgrundputz.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltige Gewebespachtelung",
+          "technik": "Gewebespachtelung",
+          "produkt_id": "hp-6",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [
+            "armierungsgewebe"
+          ],
+          "schichtdicke_mm": null,
+          "begruendung": "Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Zementhaltiger Oberputz",
+          "technik": null,
+          "produkt_id": "zement-oberputz-fremd",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "auf Wunsch",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei Hessler nicht im Programm).",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Silikatanstrich (Witterungsschutz)",
+          "technik": null,
+          "produkt_id": "silikatfarbe",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Der Sockelbereich wird klassisch zementär verputzt. Der Aufbau besteht aus einer zementhaltigen Zahnspachtelung, einem zementhaltigen Leichtgrundputz, einer zementhaltigen Gewebespachtelung, einem für die Optik ausgewählten zementhaltigen Oberputz und einem hochwertigen Silikatanstrich. Als Haftungsbrücke erfolgt zuerst eine Zahnspachtelung mit dem HP 6 Klebe- und Armierungsmörtel. Anschließend erfolgt der HP 1L Kalk-Zement-Leichtgrundputz. Die Gewebespachtelung mit HP 6 Klebe- und Armierungsmörtel sorgt für ein Reduzieren des Rissrisikos. Auf Wunsch kann noch ein zementhaltiger Oberputz aufgetragen werden (bei uns nicht im Programm). Für den Witterungsschutz wird eine hochwertige Silikatfarbe aufgetragen, wie z. B. die Produkte der Firma Beeck (Fremdprodukt).",
+      "hinweise": [
+        "Der Sockelbereich wird immer zementär verputzt.",
+        "Ein zementhaltiger Oberputz ist bei Hessler nicht im Programm.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": []
+    },
+    {
+      "id": "keller-nass",
+      "titel": "Nasser Natursteinkeller",
+      "bereich": "keller",
+      "untergruende": [
+        "Dauerhaft feuchtes / nasses Natursteinmauerwerk"
+      ],
+      "quelle_abschnitt": "4)",
+      "schichten": [
+        {
+          "funktion": "Vorspritzmörtel",
+          "technik": null,
+          "produkt_id": "hp-9vm",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Bedarf (je nach Mauerwerk)",
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Je nach Mauerwerk (gerne nachfragen) wird mit dem HP 9VM Naturkalk-Vorspritzmörtel eine gute Untergrundvorbereitung geschaffen.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Spezieller Naturkalk-Grundputz",
+          "technik": null,
+          "produkt_id": "hp-9pm",
+          "alternativen": [],
+          "optional": false,
+          "optional_label": null,
+          "bedingung": null,
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Anschließend kommt der HP 9PM Naturkalk-Grundputz PureMineral zum Einsatz. Dieser ist nur für dauerhaft feuchte bzw. nasse Mauerwerke geeignet.",
+          "hinweis": null,
+          "annahme": null
+        },
+        {
+          "funktion": "Spezieller Farbanstrich",
+          "technik": null,
+          "produkt_id": "hp-9100pm",
+          "alternativen": [],
+          "optional": true,
+          "optional_label": "bei Wunsch",
+          "bedingung": {
+            "frage": "farbanstrich",
+            "wert": true
+          },
+          "ersatz": [],
+          "zubehoer": [],
+          "schichtdicke_mm": null,
+          "begruendung": "Bei Wunsch kann zum Schluss mit der HP 9100PM Sumpfkalkfarbe PureMineral noch weiß gestrichen werden.",
+          "hinweis": null,
+          "annahme": null
+        }
+      ],
+      "beschreibungstext": "Ein nasser Natursteinkeller bedarf oft besonderer Aufmerksamkeit. Für dauerhaft feuchte / nasse Natursteinmauerwerke haben wir ein spezielles Produkt entwickelt. Der Aufbau besteht aus bei Bedarf einem Naturkalk-Vorspritzmörtel, einem speziellen Naturkalk-Grundputz und bei Wunsch noch einem speziellen Farbanstrich. Je nach Mauerwerk (gerne nachfragen) wird mit dem HP 9VM Naturkalk-Vorspritzmörtel eine gute Untergrundvorbereitung geschaffen. Anschließend kommt der HP 9PM Naturkalk-Grundputz PureMineral zum Einsatz. Dieser ist nur für dauerhaft feuchte bzw. nasse Mauerwerke geeignet. Bei Wunsch kann zum Schluss mit der HP 9100PM Sumpfkalkfarbe PureMineral noch weiß gestrichen werden. Wichtig ist, dass die Luftfeuchtigkeit dauerhaft reguliert sein muss, z. B. durch klassisches Lüften oder durch Einsatz einer taupunktgesteuerten Lüftungsanlage.",
+      "hinweise": [
+        "Wichtig: Die Luftfeuchtigkeit muss dauerhaft reguliert sein, z. B. durch klassisches Lüften oder eine taupunktgesteuerte Lüftungsanlage.",
+        "HP 9PM ist nur für dauerhaft feuchte bzw. nasse Mauerwerke geeignet.",
+        "Ob ein Vorspritzmörtel nötig ist, hängt vom Mauerwerk ab – bitte nachfragen.",
+        "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
+      ],
+      "annahmen": [],
+      "zusatzfragen": [
+        "farbanstrich"
+      ]
+    }
+  ]
+}
