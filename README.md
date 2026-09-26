@@ -22,6 +22,8 @@ npm run dev        # http://localhost:5173
 - **Vercel:** Repo importieren – `vercel.json` ist vorbereitet. `api/chat.ts` wird automatisch zur Serverless-Funktion.
 - **Netlify:** Repo importieren – `netlify.toml` ist vorbereitet, die Funktion liegt in `netlify/functions/chat.mts` (Pfad `/api/chat`).
 - **Beliebiges statisches Hosting:** Inhalt von `dist/` hochladen. Der Chat ist dann automatisch deaktiviert, alles andere funktioniert.
+- **netcup Webhosting (Plesk/Apache):** `npm run build`, dann den Inhalt von `dist/` (inkl. `.htaccess`) per FTP/SFTP oder Plesk-Dateimanager hochladen – in eine Subdomain (z. B. `hessler-demo.niklasrimmler.com`) oder einen Unterordner (z. B. `niklasrimmler.com/hessler-demo/`); die Pfade im Build sind relativ.
+  Die `.htaccess` setzt `noindex` und sinnvolles Caching. Passwortschutz für den Kunden am einfachsten in Plesk unter „Passwortgeschützte Verzeichnisse“.
 
 Die App nutzt Hash-Routing (`#/finder?p=…`). Deep-Links funktionieren deshalb ohne Server-Rewrites.
 

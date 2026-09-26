@@ -1,0 +1,12 @@
+# Für klassisches Apache-Webhosting (z. B. netcup/Plesk). Auf Vercel/Netlify wirkungslos.
+# Demo nicht in Suchmaschinen aufnehmen
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+  # Gehashte Build-Dateien lange cachen, index.html immer frisch laden
+  <FilesMatch "\.(js|css|woff2?)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>

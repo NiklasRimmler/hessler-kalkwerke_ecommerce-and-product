@@ -19,7 +19,7 @@ export function Chat() {
 
   useEffect(() => {
     let abbruch = false;
-    fetch('/api/chat')
+    fetch('api/chat')
       .then((r) => (r.ok ? r.json() : { enabled: false }))
       .then((d: { enabled?: boolean }) => !abbruch && setStatus(d.enabled ? 'aktiv' : 'aus'))
       .catch(() => !abbruch && setStatus('aus'));
@@ -39,7 +39,7 @@ export function Chat() {
     setFehler(null);
     setLaedt(true);
     try {
-      const r = await fetch('/api/chat', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ messages: neu }) });
+      const r = await fetch('api/chat', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ messages: neu }) });
       const d = (await r.json()) as { antwort?: string; error?: string };
       if (!r.ok || !d.antwort) throw new Error(d.error ?? 'Der Chat ist gerade nicht erreichbar.');
       setVerlauf([...neu, { role: 'assistant', content: d.antwort }]);

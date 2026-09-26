@@ -29,6 +29,8 @@ function chatDevApi(): Plugin {
 }
 
 export default defineConfig({
+  // Relative Pfade: dist/ läuft so auch in einem Unterordner (z. B. domain.de/hessler-demo/).
+  base: './',
   plugins: [react(), tailwindcss(), chatDevApi()],
   test: { include: ['tests/**/*.test.ts'] },
 });
