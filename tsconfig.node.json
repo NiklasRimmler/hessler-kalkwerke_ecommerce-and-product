@@ -14,5 +14,5 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["vite.config.ts", "server", "api", "netlify", "tests", "data/*.json", "src/lib"]
+  "include": ["vite.config.ts", "vite.single.config.ts", "server", "api", "netlify", "tests", "data/*.json", "src/lib"]
 }

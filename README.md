@@ -16,6 +16,7 @@ npm run dev        # http://localhost:5173
 | `npm test` | Vitest: Entscheidungsbaum, Ausschlussregeln, Mengenrechner, Datenkonsistenz, Chat-Endpunkt |
 | `npm run build` | Typecheck + statischer Build nach `dist/` |
 | `npm run preview` | Build lokal ansehen |
+| `npm run build:single` | Gesamte Demo als **eine HTML-Datei** (`dist-single/index.html`) – per Doppelklick ohne Server öffnen, ideal zum Weitergeben (Chat dort deaktiviert) |
 
 ### Deployment
 
