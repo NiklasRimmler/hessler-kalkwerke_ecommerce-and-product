@@ -514,9 +514,7 @@
         "Gipshaltige Untergründe (Gipsplatten, Gipskarton) sind laut HP-14-Merkblatt mit HP 9500 Biogrund bzw. Sperrgrund zu grundieren.",
         "Für eine genaue Aufbauempfehlung optimal auf Ihr Projekt abgestimmt wenden Sie sich gerne über unsere Kontaktdaten direkt an uns. Wir beraten Sie gerne."
       ],
-      "annahmen": [
-        "Fermacell wird diesem Aufbau zugeordnet (im Dokument nur als Auswahloption genannt, Aufbau nennt nur Rigipsplatten) – bitte prüfen."
-      ],
+      "annahmen": [],
       "zusatzfragen": [
         "durchschlag",
         "farbanstrich"

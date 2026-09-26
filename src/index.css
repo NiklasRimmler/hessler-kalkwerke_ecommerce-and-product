@@ -1,0 +1,109 @@
+@import 'tailwindcss';
+
+/* Naturkalk-Anmutung, angelehnt an das Hessler-Merkblatt:
+   warmes Off-White, Sand-/Kalktöne, Erdbraun für Text, Terrakotta als einzige Akzentfarbe. */
+@theme {
+  --font-sans: 'Source Sans 3 Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --color-kalk-50: #fbf8f2;
+  --color-kalk-100: #f5efe4;
+  --color-sand-100: #efe5d4;
+  --color-sand-200: #e6d8c0;
+  --color-sand-300: #d6c19f;
+  --color-sand-500: #a88b62;
+  --color-erde-500: #7d6247;
+  --color-erde-700: #5a4330;
+  --color-erde-900: #33251a;
+  --color-akzent-50: #fbece2;
+  --color-akzent-100: #f6d9c6;
+  --color-akzent-500: #c4622d;
+  --color-akzent-600: #a64f20;
+  --color-akzent-700: #85401b;
+  --color-moos-500: #6c7a4f;
+  --color-moos-50: #eef0e6;
+  --color-himmel-50: #edf3f7;
+  --color-himmel-600: #3f6a86;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-kalk-50 text-erde-900 antialiased;
+    font-feature-settings: 'kern', 'liga';
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-akzent-500;
+  }
+  input[type='number']::-webkit-inner-spin-button {
+    opacity: 1;
+  }
+}
+
+@utility punktlinie {
+  background-image: radial-gradient(circle, var(--color-sand-500) 1px, transparent 1.2px);
+  background-size: 6px 3px;
+  background-repeat: repeat-x;
+  height: 3px;
+}
+@utility btn {
+  @apply inline-flex min-h-11 items-center justify-center gap-2 rounded-full px-5 py-2.5 text-[15px] font-semibold transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primaer {
+  @apply btn bg-akzent-500 text-white shadow-sm hover:bg-akzent-600 active:bg-akzent-700;
+}
+@utility btn-sekundaer {
+  @apply btn border border-sand-300 bg-white text-erde-900 hover:border-erde-500 hover:bg-kalk-100;
+}
+@utility btn-text {
+  @apply btn px-3 text-erde-700 hover:bg-sand-100;
+}
+@utility karte {
+  @apply rounded-2xl border border-sand-200 bg-white shadow-[0_1px_2px_rgba(51,37,26,0.04)];
+}
+@utility eingabe {
+  @apply min-h-11 w-full rounded-xl border border-sand-300 bg-white px-3.5 py-2 text-base text-erde-900 placeholder:text-sand-500 focus:border-akzent-500 focus:ring-2 focus:ring-akzent-100 focus:outline-none;
+}
+@utility badge {
+  @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold whitespace-nowrap;
+}
+@utility ueberschrift {
+  @apply text-2xl leading-tight font-bold tracking-tight text-erde-900 sm:text-3xl;
+}
+@utility kicker {
+  @apply text-xs font-bold tracking-[0.14em] text-akzent-600 uppercase;
+}
+
+/* Schichtschnitt: dezente Texturen je Schichttyp */
+.textur-untergrund {
+  background-color: #cdbba0;
+  background-image: repeating-linear-gradient(135deg, rgba(51, 37, 26, 0.18) 0 2px, transparent 2px 9px);
+}
+.textur-putz {
+  background-image: radial-gradient(rgba(51, 37, 26, 0.12) 0.8px, transparent 1px);
+  background-size: 5px 5px;
+}
+.textur-gewebe {
+  background-image:
+    repeating-linear-gradient(0deg, rgba(51, 37, 26, 0.16) 0 1px, transparent 1px 6px),
+    repeating-linear-gradient(90deg, rgba(51, 37, 26, 0.16) 0 1px, transparent 1px 6px);
+}
+
+@media print {
+  .kein-druck {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  .karte {
+    box-shadow: none;
+    border-color: #ccc;
+    break-inside: avoid;
+  }
+  @page {
+    margin: 14mm;
+  }
+}

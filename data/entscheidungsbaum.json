@@ -203,7 +203,7 @@
             "typ": "aufbau",
             "id": "innen-plattensysteme"
           },
-          "annahme": "Fermacell wird dem Aufbau „Plattensysteme (z. B. Rigipsplatte)“ zugeordnet – im Dokument nicht ausdrücklich."
+          "annahme": "Fermacell wird dem Aufbau „Plattensysteme (z. B. Rigipsplatte)“ zugeordnet – im Dokument nur als Auswahloption genannt, bitte prüfen."
         },
         {
           "id": "holzweichfaser",
@@ -346,8 +346,7 @@
           "ziel": {
             "typ": "aufbau",
             "id": "innen-bestandsputze"
-          },
-          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+          }
         },
         {
           "id": "kalk-zement",
@@ -355,8 +354,7 @@
           "ziel": {
             "typ": "aufbau",
             "id": "innen-bestandsputze"
-          },
-          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+          }
         },
         {
           "id": "lehmputz",
@@ -364,8 +362,7 @@
           "ziel": {
             "typ": "aufbau",
             "id": "innen-bestandsputze"
-          },
-          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+          }
         },
         {
           "id": "gipsputz",
@@ -373,8 +370,7 @@
           "ziel": {
             "typ": "aufbau",
             "id": "innen-bestandsputze"
-          },
-          "annahme": "Zuordnung zu „Bestandsputze“ angenommen."
+          }
         },
         {
           "id": "sonstiges",
